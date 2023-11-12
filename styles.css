@@ -1,27 +1,43 @@
 
 
 .logTime {
+    background-image: url(https://foto.wuestenigel.com/wp-content/uploads/api/weights-and-meter-with-a-workout-tag.jpeg);
   border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
   border: solid 5px black;
   background-color: bisque;
-  height: 400px;
+  height: 500px;
   width: 500px;
   margin-left: 200px;
   margin-top: 200px;
 }
 
+
+
 p {
   text-align: center;
   font-size: 28px;
+  
+  margin-top: 80px;
+  font-weight: bolder;
+  
+}
+
+.go {
+    color: rgb(249, 192, 255);
+    font-size: 28px;
 }
 
 button {
+ 
   width: 80px;
   height: 50px;
   border-radius: 10px;
 }
 
 .pushButton {
+    
   display: flex;
   justify-content: space-evenly;
 }
@@ -32,3 +48,11 @@ button {
   margin-top: 25px;
   margin-left: 25px;
 }
+
+@media (min-width: 768px) {
+
+    
+
+}   
+    
+
